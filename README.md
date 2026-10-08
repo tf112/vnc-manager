@@ -1,0 +1,2 @@
+# vnc-manager
+基于novnc实现vnc远程计算机资源管理，客户端采用Python，服务端采用java转发tcp到websocket给前端
