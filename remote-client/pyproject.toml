@@ -1,0 +1,22 @@
+[project]
+name = "remote-client"
+version = "1.0.0"
+description = "RemoteVNC Platform - Python Client"
+requires-python = ">=3.10"
+dependencies = [
+    "websocket-client>=1.8.0",
+    "mss>=9.0.0",
+    "numpy>=1.24.0",
+    "pyyaml>=6.0",
+    "requests>=2.31.0",
+    "imageio[ffmpeg]>=2.34.0",
+    "pydes>=2.0.1",
+    "pynput>=1.7.6",
+]
+
+[project.optional-dependencies]
+gpu = ["dxcam>=0.3.0"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"

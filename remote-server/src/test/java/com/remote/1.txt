@@ -1,0 +1,8 @@
+2026-08-28 17:18:44.711  INFO 26508 --- [ vnc-tcp-reader] com.remote.proxy.VncProxyHandler         : WS msg #1: 12 bytes, first20=[524642203030332e3030380a]
+2026-08-28 17:18:44.714  INFO 26508 --- [ vnc-tcp-reader] com.remote.proxy.VncProxyHandler         : WS msg #2: 2 bytes, first20=[0102]
+2026-08-28 17:18:44.716  INFO 26508 --- [ vnc-tcp-reader] com.remote.proxy.VncProxyHandler         : WS msg #3: 16 bytes, first20=[5709acf72a4e36fca93deaec1be6b9fb]
+2026-08-28 17:18:44.720  INFO 26508 --- [ vnc-tcp-reader] com.remote.proxy.VncProxyHandler         : WS msg #4: 4 bytes, first20=[00000000]
+2026-08-28 17:18:44.722  INFO 26508 --- [ vnc-tcp-reader] com.remote.proxy.VncProxyHandler         : WS msg #5: 33 bytes, first20=[078004382018000100ff00ff00ff100800000000]
+2026-08-28 17:18:44.946  INFO 26508 --- [io-8080-exec-10] com.remote.proxy.VncProxyHandler         : VNC代理连接关闭: clientId=client-001, status=CloseStatus[code=1000, reason=null]
+2026-08-28 17:18:44.947 DEBUG 26508 --- [io-8080-exec-10] com.remote.proxy.VncProxyHandler         : TCP Channel 已关闭: clientId=client-001
+2026-08-28 17:18:44.947 DEBUG 26508 --- [ vnc-tcp-reader] com.remote.proxy.VncProxyHandler         : TCP 读取异常: clientId=client-001, totalForwarded=221525, error=null
